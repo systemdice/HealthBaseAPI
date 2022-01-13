@@ -59,7 +59,7 @@ namespace MongoDB.GenericRepository.Controllers
         //{
         //    var addQuestion = await _addQuestionRepository.GetById(UnqueID);
         //    return Ok(addQuestion);
-        //}
+        //} 
 
         [HttpGet("{id}/{UnqueID}")]
         public async Task<string> GetName(int id, string UnqueID)
