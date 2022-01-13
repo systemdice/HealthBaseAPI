@@ -1,0 +1,43 @@
+C:\GenericRepoMongo\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\bin\Release\netcoreapp2.2\win-x64\snappy32.dll
+C:\GenericRepoMongo\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\bin\Release\netcoreapp2.2\win-x64\snappy64.dll
+C:\GenericRepoMongo\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\bin\Release\netcoreapp2.2\win-x64\libzstd.dll
+C:\GenericRepoMongo\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\bin\Release\netcoreapp2.2\win-x64\hostpolicy.dll
+C:\GenericRepoMongo\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\bin\Release\netcoreapp2.2\win-x64\hostfxr.dll
+C:\GenericRepoMongo\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\bin\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.exe
+C:\GenericRepoMongo\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\bin\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.deps.json
+C:\GenericRepoMongo\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\bin\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.runtimeconfig.json
+C:\GenericRepoMongo\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\bin\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.runtimeconfig.dev.json
+C:\GenericRepoMongo\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\bin\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.dll
+C:\GenericRepoMongo\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\bin\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.pdb
+C:\GenericRepoMongo\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\obj\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.csprojAssemblyReference.cache
+C:\GenericRepoMongo\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\obj\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.csproj.CoreCompileInputs.cache
+C:\GenericRepoMongo\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\obj\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.RazorAssemblyInfo.cache
+C:\GenericRepoMongo\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\obj\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.RazorAssemblyInfo.cs
+C:\GenericRepoMongo\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\obj\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.AssemblyInfoInputs.cache
+C:\GenericRepoMongo\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\obj\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.AssemblyInfo.cs
+C:\GenericRepoMongo\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\obj\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.RazorTargetAssemblyInfo.cache
+C:\GenericRepoMongo\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\obj\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.dll
+C:\GenericRepoMongo\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\obj\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.pdb
+C:\SYSD\MongoDB API\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\bin\Release\netcoreapp2.2\win-x64\snappy32.dll
+C:\SYSD\MongoDB API\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\bin\Release\netcoreapp2.2\win-x64\snappy64.dll
+C:\SYSD\MongoDB API\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\bin\Release\netcoreapp2.2\win-x64\libzstd.dll
+C:\SYSD\MongoDB API\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\bin\Release\netcoreapp2.2\win-x64\hostpolicy.dll
+C:\SYSD\MongoDB API\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\bin\Release\netcoreapp2.2\win-x64\hostfxr.dll
+C:\SYSD\MongoDB API\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\bin\Release\netcoreapp2.2\win-x64\appsettings.Development.json
+C:\SYSD\MongoDB API\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\bin\Release\netcoreapp2.2\win-x64\appsettings.json
+C:\SYSD\MongoDB API\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\bin\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.exe
+C:\SYSD\MongoDB API\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\bin\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.deps.json
+C:\SYSD\MongoDB API\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\bin\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.runtimeconfig.json
+C:\SYSD\MongoDB API\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\bin\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.runtimeconfig.dev.json
+C:\SYSD\MongoDB API\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\bin\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.dll
+C:\SYSD\MongoDB API\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\bin\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.pdb
+C:\SYSD\MongoDB API\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\obj\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.csprojAssemblyReference.cache
+C:\SYSD\MongoDB API\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\obj\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.AssemblyInfoInputs.cache
+C:\SYSD\MongoDB API\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\obj\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.AssemblyInfo.cs
+C:\SYSD\MongoDB API\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\obj\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.csproj.CoreCompileInputs.cache
+C:\SYSD\MongoDB API\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\obj\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.RazorAssemblyInfo.cache
+C:\SYSD\MongoDB API\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\obj\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.RazorAssemblyInfo.cs
+C:\SYSD\MongoDB API\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\obj\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.RazorTargetAssemblyInfo.cache
+C:\SYSD\MongoDB API\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\obj\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.dll
+C:\SYSD\MongoDB API\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\obj\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.pdb
+C:\SYSD\MongoDB API\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\obj\Release\netcoreapp2.2\win-x64\MongoDB.GenericRepository.genruntimeconfig.cache

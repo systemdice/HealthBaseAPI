@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = MongoDB.GenericRepository
+build_property.ProjectDir = C:\Nuasakaladata\MongoDB-RepositoryUoWPatterns\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\

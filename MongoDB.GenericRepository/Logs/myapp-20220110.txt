@@ -1,0 +1,6 @@
+2022-01-10T14:49:15.1641183+05:30 800000a0-0001-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2 GET https://localhost:44380/swagger/index.html - - (ca22a1cb)
+2022-01-10T14:49:17.0588104+05:30 800000a0-0001-fd00-b63f-84710c7967bb [INF] Request finished HTTP/2 GET https://localhost:44380/swagger/index.html - - - 200 - text/html;charset=utf-8 1903.8258ms (791a596a)
+2022-01-10T14:49:17.0937401+05:30 8000000f-0002-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2 GET https://localhost:44380/_framework/aspnetcore-browser-refresh.js - - (ca22a1cb)
+2022-01-10T14:49:17.1011321+05:30 8000000f-0002-ff00-b63f-84710c7967bb [INF] Request finished HTTP/2 GET https://localhost:44380/_framework/aspnetcore-browser-refresh.js - - - 200 11959 application/javascript;+charset=utf-8 6.9437ms (791a596a)
+2022-01-10T14:49:17.3526066+05:30 8000000e-0003-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2 GET https://localhost:44380/swagger/v1/swagger.json - - (ca22a1cb)
+2022-01-10T14:49:18.2321917+05:30 8000000e-0003-fc00-b63f-84710c7967bb [INF] Request finished HTTP/2 GET https://localhost:44380/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 879.5244ms (791a596a)

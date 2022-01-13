@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\dell\Desktop\apiPublish</_PublishTargetUrl>
+    <History>True|2022-01-12T11:03:04.5288391Z;True|2022-01-12T15:56:37.9461539+05:30;True|2022-01-10T14:50:44.3826030+05:30;True|2022-01-10T14:43:08.0160992+05:30;True|2022-01-10T14:09:18.4638204+05:30;True|2022-01-06T12:53:18.1589524+05:30;True|2022-01-06T12:49:00.6720961+05:30;True|2022-01-06T12:35:03.0088871+05:30;True|2022-01-05T18:57:23.8476968+05:30;</History>
+  </PropertyGroup>
+</Project>

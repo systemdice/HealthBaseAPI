@@ -1,0 +1,12 @@
+ collection found 8/24/2020 12:10:14 PM------------------------------8/24/2020 12:10:20 PM------------------------------database about to open.... next message is about connection opendatabase about to open.... next message is about connection opendatabase openeddatabase openedSearching collection... next msg is about finding colection collection found 8/24/2020 12:12:03 PM------------------------------database about to open.... next message is about connection opendatabase openedSearching collection... next msg is about finding colection collection found 8/24/2020 12:16:32 PM
+------------------------------
+8/24/2020 12:16:37 PM
+------------------------------
+database about to open.... next message is about connection open->
+database opened
+Searching collection... next msg is about finding colection->
+database about to open.... next message is about connection open->
+database opened
+Searching collection... next msg is about finding colection->
+ Collection found 
+ Collection found 
