@@ -120,7 +120,7 @@ namespace MongoDB.GenericRepository.Repository
             ConfigDbSet();
 
             var builder = Builders<TEntity>.Filter;
-            var xyz = DbSet.CountDocuments(builder.Eq("CeditStatus", type1) & builder.Eq("PharmacyStoreName", type2));
+            var xyz = DbSet.CountDocuments(builder.Eq("CeditStatus", type1) & builder.Eq("PharmacyStoreName", type2) & !builder.Eq("Patientid", "SoftDelete"));
             return xyz; // .SingleOrDefault();
             
         }
@@ -150,6 +150,10 @@ namespace MongoDB.GenericRepository.Repository
                 else if (entryOwner == "")
                 {
                     filter = builder.Eq("CaseID", caseID);
+                }
+                else if (caseID == "OnlyCash")
+                {
+                    filter = builder.Eq("PharmacyStoreName", entryOwner) & builder.Eq("CeditStatus", "Credit");
                 }
                 else
                 {

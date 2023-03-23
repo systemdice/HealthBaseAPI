@@ -36,6 +36,8 @@ namespace MongoDB.GenericRepository.ViewModel
         public DoctortoPatientCommentMedicine DoctortoPatientCommentMedicine { get; set; }
         public DischargeNote DischargeNote { get; set; }
         public DailyExpense[] DailyExpense { get; set; }
+        public PharmacyManualEntry[] PharmacyManualEntry { get; set; }
+        public Nebulization[] Nebulization { get; set; }
         public DoctorVisit[] DoctorVisit { get; set; }
         public NurseVisit[] NurseVisit { get; set; }
         public DoctortoPatientCommentMedicineReDevelop[] DoctortoPatientCommentMedicineReDevelop { get; set; }

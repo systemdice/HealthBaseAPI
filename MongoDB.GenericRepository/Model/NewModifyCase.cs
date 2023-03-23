@@ -41,6 +41,7 @@ namespace MongoDB.GenericRepository.Model
             opdipd = UR.opdipd;
             OPD =UR.OPD;
             DailyExpense = UR.DailyExpense;
+            Nebulization = UR.Nebulization;
             DoctorVisit = UR.DoctorVisit;
             NurseVisit = UR.NurseVisit;            
             DoctortoPatientCommentMedicineReDevelop = UR.DoctortoPatientCommentMedicineReDevelop;
@@ -50,6 +51,8 @@ namespace MongoDB.GenericRepository.Model
             OTDetails = UR.OTDetails;
             DoctortoPatientCommentMedicine = UR.DoctortoPatientCommentMedicine;
             DischargeNote = UR.DischargeNote;
+            Nebulization = UR.Nebulization;
+            PharmacyManualEntry = UR.PharmacyManualEntry;
             
             
         }
@@ -81,6 +84,8 @@ namespace MongoDB.GenericRepository.Model
             opdipd = UR.opdipd;
             OPD = UR.OPD;
             DailyExpense = UR.DailyExpense;
+            PharmacyManualEntry = UR.PharmacyManualEntry;
+            Nebulization = UR.Nebulization;
             DoctorVisit = UR.DoctorVisit;
             NurseVisit = UR.NurseVisit;
         DoctortoPatientCommentMedicineReDevelop = UR.DoctortoPatientCommentMedicineReDevelop;
@@ -90,7 +95,9 @@ namespace MongoDB.GenericRepository.Model
             OTDetails = UR.OTDetails;
             DoctortoPatientCommentMedicine = UR.DoctortoPatientCommentMedicine;
             DischargeNote = UR.DischargeNote;
-            
+            Nebulization = UR.Nebulization;
+            PharmacyManualEntry = UR.PharmacyManualEntry;
+
         }
         //[BsonId]
         //[BsonIgnoreIfDefault]
@@ -117,6 +124,8 @@ namespace MongoDB.GenericRepository.Model
         public string OPDkimbaIPD { get; set; }
     public OPD OPD { get; set; }
         public DailyExpense[] DailyExpense { get; set; }
+        public PharmacyManualEntry[] PharmacyManualEntry { get; set; }
+        public Nebulization[] Nebulization { get; set; }
         public DoctorVisit[] DoctorVisit { get; set; }
         public NurseVisit[] NurseVisit { get; set; }
         public DoctortoPatientCommentMedicineReDevelop[] DoctortoPatientCommentMedicineReDevelop { get; set; }
@@ -196,6 +205,20 @@ namespace MongoDB.GenericRepository.Model
     }
     public class DailyExpense
     {        
+        public string name { get; set; }
+        public string ExpenseDescription { get; set; }
+        public string Amount { get; set; }
+        public string expDate { get; set; }
+    }
+    public class PharmacyManualEntry
+    {
+        public string name { get; set; }
+        public string ExpenseDescription { get; set; }
+        public string Amount { get; set; }
+        public string expDate { get; set; }
+    }
+    public class Nebulization
+    {
         public string name { get; set; }
         public string ExpenseDescription { get; set; }
         public string Amount { get; set; }
@@ -286,6 +309,8 @@ namespace MongoDB.GenericRepository.Model
         public string TotalPrice { get; set; }
         public string Other { get; set; }
 
+
+
     }
     public class PaymentHistorySingle
     {
@@ -321,6 +346,9 @@ namespace MongoDB.GenericRepository.Model
         public string OTCharge { get; set; }
         public string OtherCharge { get; set; }
         public string RegdCharge{ get; set; }
+        public string VaccinationCharge  { get; set; }
+        public string PharmacyManualEntryCharge { get; set; }
+        public string NebulizationCharge { get; set; }
         public bool ShouldCommit { get; set; } = true;
     }
     public class PaymentHistorySingleFew

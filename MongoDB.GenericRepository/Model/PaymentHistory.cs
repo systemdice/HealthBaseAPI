@@ -34,6 +34,9 @@ namespace MongoDB.GenericRepository.Model
             OtherCharge = UR.OtherCharge;
             RegdCharge = UR.RegdCharge;
             EarlierPayment = UR.EarlierPayment;
+            VaccinationCharge = UR.VaccinationCharge;
+            PharmacyManualEntryCharge = UR.VaccinationCharge;
+            NebulizationCharge = UR.VaccinationCharge;
         }
 
         public PaymentHistory(string updateUniqueaID, PaymentHistoryViewModel UR)
@@ -62,6 +65,9 @@ namespace MongoDB.GenericRepository.Model
             OtherCharge = UR.OtherCharge;
             RegdCharge = UR.RegdCharge;
             EarlierPayment = UR.EarlierPayment;
+            VaccinationCharge = UR.VaccinationCharge;
+            PharmacyManualEntryCharge = UR.VaccinationCharge;
+            NebulizationCharge = UR.VaccinationCharge;
         }
         //[BsonId]
         //[BsonIgnoreIfDefault]
@@ -93,5 +99,8 @@ namespace MongoDB.GenericRepository.Model
         public string OtherCharge { get; set; }
         public string RegdCharge { get; set; }
         public string EarlierPayment { get; set; }
+        public string VaccinationCharge { get; set; }
+        public string PharmacyManualEntryCharge { get; set; }
+        public string NebulizationCharge { get; set; }
     }
 }

@@ -36,8 +36,8 @@ namespace MongoDB.GenericRepository.Controllers
         {
             //var farmacyDeliveryToPatients = await _farmacyDeliveryToPatientRepository.GetAll();
             var farmacyDeliveryToPatients = await _farmacyDeliveryToPatientRepository.GetAllPharmaFilter(storeName, "");
-            var objfarmacyDeliveryToPatients = from c in farmacyDeliveryToPatients
-                                where c.PharmacyStoreName == storeName && c.Patientid != "SoftDelete"
+            var objfarmacyDeliveryToPatients = from c in farmacyDeliveryToPatients //.OrderBy(t => Convert.ToInt32((t.CaseID=="" || t.CaseID==null)?"0": t.CaseID))
+            where c.PharmacyStoreName == storeName && c.Patientid != "SoftDelete"
                                                select new FaramaBillFew
                                 {
                                     //UnqueID = c.UnqueID,
@@ -65,6 +65,44 @@ namespace MongoDB.GenericRepository.Controllers
                                 };
             return Ok(objfarmacyDeliveryToPatients);
         }
+
+
+        [HttpGet]
+        [Route("getCashFarmDataNamewise/{storeName}")]
+        public async Task<ActionResult<IEnumerable<FarmacyDeliveryToPatient>>> getCashFarmDataNamewise(string storeName)
+        {
+            //var farmacyDeliveryToPatients = await _farmacyDeliveryToPatientRepository.GetAll();
+            var farmacyDeliveryToPatients = await _farmacyDeliveryToPatientRepository.GetAllPharmaFilter(storeName, "OnlyCash");
+            var objfarmacyDeliveryToPatients = from c in farmacyDeliveryToPatients.OrderBy(t => Convert.ToInt32(t.CaseID))
+                                               where c.PharmacyStoreName == storeName && c.Patientid != "SoftDelete"
+                                               select new FaramaBillFew
+                                               {
+                                                   //UnqueID = c.UnqueID,
+                                                   UnqueID = c.UnqueID,
+                                                   IPDOPDId = c.IPDOPDId,
+                                                   PaymentStatus = c.PaymentStatus,
+                                                   DateStart = c.DateStart,
+                                                   CaseID = c.CaseID,
+                                                   name = c.name,
+                                                   BillingDate = c.BillingDate,
+                                                   BilledBy = c.BilledBy,
+                                                   CustomerName = c.CustomerName,
+                                                   BillNo = c.BillNo,
+                                                   PaymentAmount = c.PaymentAmount,
+                                                   CeditStatus = c.CeditStatus,
+                                                   PharmacyStoreName = c.PharmacyStoreName,
+                                                   GrossSalePriceOnthisBill = c.GrossSalePriceOnthisBill,
+                                                   GrossPurchasePriceOnthisBill = c.GrossPurchasePriceOnthisBill,
+                                                   GrossProffitPriceOnthisBill = c.GrossProffitPriceOnthisBill,
+                                                   GrossGSTPriceOnthisBill = c.GrossGSTPriceOnthisBill,
+                                                   GrossCGSTPriceOnthisBill = c.GrossCGSTPriceOnthisBill,
+                                                   GrossSGSTPriceOnthisBill = c.GrossSGSTPriceOnthisBill,
+                                                   BillingMonth = c.BillingMonth,
+                                                   BillingYear = c.BillingYear
+                                               };
+            return Ok(objfarmacyDeliveryToPatients);
+        }
+
 
         [HttpGet]
         [Route("getFarmaComision/{storeName}")]
@@ -323,6 +361,7 @@ namespace MongoDB.GenericRepository.Controllers
             //testFarmacyDeliveryToPatient = await _farmacyDeliveryToPatientRepository.GetById("42119187");
 
             return Ok(returnSingleDataObj);
+            
         }
 
         [HttpPost]

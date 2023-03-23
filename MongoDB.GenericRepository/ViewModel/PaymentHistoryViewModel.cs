@@ -30,6 +30,9 @@ namespace MongoDB.GenericRepository.ViewModel
         public string OtherCharge { get; set; }
         public string RegdCharge { get; set; }
         public string EarlierPayment { get; set; }
+        public string VaccinationCharge { get; set; }
+        public string PharmacyManualEntryCharge { get; set; }
+        public string NebulizationCharge { get; set; }
         public bool ShouldCommit { get; set; } = true;
     }
 }

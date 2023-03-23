@@ -31,21 +31,21 @@ namespace MongoDB.GenericRepository.Controllers
             int currentMonth = DateTime.Now.Month;
             int currentYear = DateTime.Now.Year;
 
-            var lstFutureYears = inventoryMasters.Where(x => (Convert.ToInt16(x.ExpireYear) - currentYear) > 0);
-            //var pp = lst.Count();
-            var lstSameYear = (inventoryMasters.Where(x => (Convert.ToInt16(x.ExpireYear) - currentYear) == 0));
-            //var kk = lst1.Count();
-            var lstMonthComparision = lstSameYear.Where(p=> Convert.ToInt16(p.ExpireMonth)- currentMonth >= 0);
+            //var lstFutureYears = inventoryMasters.Where(x => (Convert.ToInt16(x.ExpireYear) - currentYear) > 0);
+            ////var pp = lst.Count();
+            //var lstSameYear = (inventoryMasters.Where(x => (Convert.ToInt16(x.ExpireYear) - currentYear) == 0));
+            ////var kk = lst1.Count();
+            //var lstMonthComparision = lstSameYear.Where(p=> Convert.ToInt16(p.ExpireMonth)- currentMonth >= 0);
 
 
-            var finalList = lstFutureYears.Union(lstMonthComparision);
-
-
-           
+            //var finalList = lstFutureYears.Union(lstMonthComparision);
 
 
 
-            return Ok(finalList);
+
+            return Ok(inventoryMasters);
+
+            //return Ok(finalList);
         }
 
         [HttpGet]

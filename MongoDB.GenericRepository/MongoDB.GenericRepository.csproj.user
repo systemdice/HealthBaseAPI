@@ -9,11 +9,14 @@
     <WebStackScaffolding_IsReferencingScriptLibrariesSelected>True</WebStackScaffolding_IsReferencingScriptLibrariesSelected>
     <WebStackScaffolding_LayoutPageFile />
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
-    <NameOfLastUsedPublishProfile>C:\Nuasakaladata\MongoDB-RepositoryUoWPatterns\MongoDB-RepositoryUoWPatterns\MongoDB.GenericRepository\Properties\PublishProfiles\FolderProfile2.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Nuasakaladata\HealthBaseAPI\MongoDB.GenericRepository\Properties\PublishProfiles\FolderProfile3.pubxml</NameOfLastUsedPublishProfile>
     <ShowAllFiles>false</ShowAllFiles>
-    <ActiveDebugProfile>IIS Express</ActiveDebugProfile>
+    <ActiveDebugProfile>MongoDB.GenericRepository</ActiveDebugProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>

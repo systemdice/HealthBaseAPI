@@ -30,7 +30,7 @@ namespace MongoDB.GenericRepository.Controllers
             return Ok(paymentHistorys);
         }
         [HttpGet]
-        [Route("getPaymentHistoryByCaseID/{CaseID}")]
+        [Route("getPaymentHistoryByCaseID/{caseID}")]
         public async Task<ActionResult<List<PaymentHistory>>> getPaymentHistoryByCaseID(string caseID)
         {
             var reports = await _paymentHistoryRepository.GetAllPaymentHistory(caseID);

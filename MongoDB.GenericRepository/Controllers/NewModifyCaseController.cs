@@ -436,6 +436,7 @@ namespace MongoDB.GenericRepository.Controllers
             var newModifyCases = await _newModifyCaseRepository.GetAllCase1("", "Range", result);
            
             var res = from c in newModifyCases
+                      where c.PatientID != "SoftDelete"
                       select new
                       {                          
                          
@@ -495,8 +496,8 @@ namespace MongoDB.GenericRepository.Controllers
             //&& DateTime.ParseExact(a.DateStart.Replace("-", "/"), "dd/MM/yyyy", CultureInfo.InvariantCulture) > r6).ToList();
             //newModifyCases = newModifyCases.Where(a => a.CaseStatus != "SoftDelete" && (a.DateStart.Replace("-", "/") == DateTime.Now.ToString("dd/MM/yyyy"))).ToList();
             //var a= newModifyCases.Count() == 0 ? null :
-            var res = newModifyCases.Count() == 0 ? null : from c in newModifyCases //objModifyCase
-                      select new
+            var res = newModifyCases.Count() == 0 ? null : from c in newModifyCases.OrderByDescending(t => DateTime.ParseExact(t.DateStart.Replace("-","/"), "dd/MM/yyyy", CultureInfo.InvariantCulture)) //objModifyCase
+                                                           select new
                                 {
                         UnqueID = c.UnqueID,
                         DateStart = c.DateStart, // DateTime.Now.ToString("dd-MM-yyyy"); // UR.DateStart;
